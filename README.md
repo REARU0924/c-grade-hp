@@ -1,6 +1,6 @@
-# C判定を目指すオンライン数学塾 LP
+# C判数学塾 LP
 
-Next.js App Router + Tailwind CSS で作成した、オンライン数学塾の1ページLPです。
+Next.js App Router + Tailwind CSS で作成した、C判数学塾の1ページLPです。
 
 ## 公開URL
 
