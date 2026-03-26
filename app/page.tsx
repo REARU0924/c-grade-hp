@@ -224,22 +224,73 @@ export default function Page() {
       </section>
 
       <section className="px-6 py-20 sm:px-8 lg:px-12">
-        <div className="mx-auto max-w-5xl rounded-3xl border border-slate-200 bg-white p-8 shadow-sm sm:p-10">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-blue-600">
-            プロフィール
-          </p>
-          <h2 className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">
-            塾長プロフィール
-          </h2>
-
-          <div className="mt-5 space-y-3 text-base leading-7 text-slate-600 sm:text-lg">
-            <p>大阪大学 基礎工学部 情報科学科 在籍</p>
-            <p>数学偏差値75以上</p>
-            <p>阪大数学 本番7.5割</p>
-            <p>
-              数学が苦手な状態からでも伸ばすための、
-              「理解」と「定着」を重視した指導を行っています。
+        <div className="mx-auto max-w-5xl overflow-hidden rounded-[2rem] border border-white/10 bg-slate-950 shadow-[0_20px_80px_rgba(15,23,42,0.35)]">
+          <div className="bg-gradient-to-br from-slate-900 via-slate-950 to-blue-950/80 p-8 sm:p-10">
+            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-blue-300">
+              Profile
             </p>
+            <h2 className="mt-3 text-3xl font-bold tracking-tight text-white sm:text-4xl">
+              塾長プロフィール
+            </h2>
+            <p className="mt-4 max-w-2xl text-sm leading-7 text-slate-300 sm:text-base">
+              実績だけでなく、数学が苦手な受験生に必要な
+              「理解の順番」と「定着の方法」まで設計します。
+            </p>
+
+            <div className="mt-8 grid gap-4 sm:grid-cols-2">
+              <div className="rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur-sm">
+                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">
+                  University
+                </p>
+                <p className="mt-2 text-lg font-semibold text-white">
+                  大阪大学 基礎工学部 情報科学科 在籍
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur-sm">
+                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">
+                  Performance
+                </p>
+                <p className="mt-2 text-lg font-semibold text-white">
+                  数学偏差値75以上
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur-sm">
+                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">
+                  Exam Result
+                </p>
+                <p className="mt-2 text-lg font-semibold text-white">
+                  阪大数学 本番7.5割
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur-sm">
+                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">
+                  Product
+                </p>
+                <p className="mt-2 text-lg font-semibold text-white">
+                  高校数学アプリ「スキマス」を開発
+                </p>
+                <a
+                  href="https://app-mathflow-ew3i.vercel.app"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mt-4 inline-flex items-center rounded-full border border-blue-300/30 bg-blue-400/10 px-4 py-2 text-sm font-semibold text-blue-200 transition hover:bg-blue-400/20"
+                >
+                  スキマスをチェックする
+                </a>
+              </div>
+            </div>
+
+            <div className="mt-6 rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm">
+              <p className="text-base leading-8 text-slate-200 sm:text-lg">
+                数学が苦手な状態からでも伸ばすための、
+                <span className="font-semibold text-white">「理解」</span>と
+                <span className="font-semibold text-white">「定着」</span>
+                を重視した指導を行っています。
+              </p>
+            </div>
           </div>
         </div>
       </section>
