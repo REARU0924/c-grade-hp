@@ -34,7 +34,7 @@ export default function Page() {
 
             <div className="max-w-5xl space-y-5">
               <h1 className="text-4xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-6xl">
-                数学で模試の判定を
+                数学で模試の判定を<br/>
                   <span className="text-blue-600">E・D判定 → C判定 → 合格レベルへ</span>
               </h1>
 
@@ -56,7 +56,7 @@ export default function Page() {
             rel="noreferrer"
             className="inline-flex items-center justify-center rounded-full bg-blue-600 px-7 py-4 text-base font-semibold text-white transition hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-200"
           >
-            「今やるべきこと」を明確にする
+            体験授業を受けてみる
           </a>
 
           <div className="grid w-full gap-4 pt-6 sm:grid-cols-3">
@@ -243,7 +243,7 @@ export default function Page() {
                   University
                 </p>
                 <p className="mt-2 text-lg font-semibold text-white">
-                  大阪大学 基礎工学部 情報科学科 在籍
+                  大阪大学 <br/>基礎工学部 情報科学科 <br/>在籍
                 </p>
               </div>
 
@@ -270,7 +270,7 @@ export default function Page() {
                   Product
                 </p>
                 <p className="mt-2 text-lg font-semibold text-white">
-                  高校数学アプリ「スキマス」を開発
+                  高校数学アプリ<br/>「スキマス」を開発
                 </p>
                 <a
                   href="https://app-mathflow-ew3i.vercel.app"
@@ -285,7 +285,7 @@ export default function Page() {
 
             <div className="mt-6 rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm">
               <p className="text-base leading-8 text-slate-200 sm:text-lg">
-                数学が苦手な状態からでも伸ばすための、
+                数学が苦手な状態からでも<br/>伸ばすための、
                 <span className="font-semibold text-white">「理解」</span>と
                 <span className="font-semibold text-white">「定着」</span>
                 を重視した指導を行っています。
@@ -301,7 +301,9 @@ export default function Page() {
             C判数学塾
           </p>
           <h2 className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">
-            C判定から、合格へ。
+            C判定から
+            <br />
+            合格へ。
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-base leading-7 text-slate-300 sm:text-lg">
             無料体験で、今の課題を整理し、
@@ -313,7 +315,7 @@ export default function Page() {
             rel="noreferrer"
             className="mt-8 inline-flex items-center justify-center rounded-full bg-blue-500 px-7 py-4 text-base font-semibold text-white transition hover:bg-blue-400 focus:outline-none focus:ring-4 focus:ring-blue-300"
           >
-            無料体験で勉強ルートを知る
+            体験授業を受けてみる
           </a>
         </div>
       </section>
