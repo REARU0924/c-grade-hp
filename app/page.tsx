@@ -116,7 +116,7 @@ export default function Page() {
             <h2 className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">
               
               <br className="hidden sm:block" />
-              「1週間の勉強」を設計する塾です
+              いつまでに何をやるかを設計する塾です
             </h2>
             <p className="mt-4 text-base leading-7 text-slate-600 sm:text-lg">
               ただ教えるだけではなく、どこでつまずいているかを見つけ、
